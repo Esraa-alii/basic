@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+* { 
+box-sizing:border-box;
+}
+/* with line styling */
+.with_line{
+    color: black;
+    
+    font-size: 20px;
+}
+.with_line:hover{
+    color: rgb(84, 83, 83);
+}
+.with_line:active{
+    color: brown;
+
+/* without line styling */
+
+}.without_line{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.without_line:hover{
+    color: rgb(84, 83, 83);
+}
+.without_line:active{
+    color: brown;
+}
+
+/* link as button */
+.button_link{
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.button_link:hover{
+ background-color: rgb(97, 97, 97);
+}
+.button_link:active{
+    background-color: black;
+}
+
+/* link with border */
+.border_link{
+    color: black;
+    padding: 14px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: gray;
+}
+.border_link:hover{
+    border-color: black;
+}
+.border_link:active{
+    border-color: brown;
+}
+
+/* animated link */
+.animated_link{
+    background-color: rgb(138, 138, 138);
+    color: white;
+    padding: 14px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.animated_link:hover{
+    background-color: rgb(97, 97, 97);
+    margin-left: 15px;
+}
+.animated_link:active{
+    background-color: black;
+}
+
+</style>
+<body>
+    <p> <a class="with_line" target="_blank" href="#"> link with line </a></p>
+    <p><a class="without_line" target="_blank" href="#"> link without line </a></p>
+    <p><a class="button_link" target="_blank" href="#"> link as button </a></p>
+    <p><a class="border_link" target="_blank" href="#"> link with border </a></p>
+    <p><a class="animated_link" target="_blank" href="#"> animated link </a></p>
+
+</body>
+</html>

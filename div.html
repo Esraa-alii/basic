@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .default{
+        margin: 3px;
+        width: auto;
+        overflow: hidden;
+    }
+    .bordered_div{
+        position: relative;
+        margin: 5px;
+        width: auto;
+        overflow: hidden;
+        border: 2px solid black;
+        padding: 10px;
+        align-items: center;
+    }
+    .rounded_div{
+        position:absolute;
+        margin: 5px;
+        width: auto;
+        overflow: hidden;
+        border: 2px solid black;
+        padding: 10px;
+        align-items: center;
+        border-radius: 12px;
+    }
+    @media (min-width: 480px) {
+  div{
+    font-size: 2em;
+  }
+}
+
+
+
+
+
+</style>
+<body>
+    <div class="default"> this is div</div>
+    <!-- border div -->
+    <div class="bordered_div">a div with border </div>
+     <!-- rounded div  -->
+     <div class="rounded_div">a rounded div  </div>
+
+      </body>
+</html>
